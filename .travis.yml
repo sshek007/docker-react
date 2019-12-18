@@ -7,4 +7,5 @@ before_install:
 
 script:
     - docker run shashis/docker-react npm run test -- --coverage
+    - YARN_GPG=no
     
