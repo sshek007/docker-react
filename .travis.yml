@@ -7,7 +7,6 @@ before_install:
 
 script:
     - docker run sshek007/docker-react npm run test -- --coverage
-    - YARN_GPG=no
 
 deploy:
     provider: elasticbeanstalk
